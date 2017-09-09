@@ -1,3 +1,6 @@
+# Utility script to generate a CNF grammar file from the Open American National Corpus MASC dataset in PTB format.
+# Works on Python 2.7 (untested on 3.x) with the latest version of NLTK (http://www.nltk.org/) installed.
+
 from nltk.corpus.reader.bracket_parse import *
 import sys
 
